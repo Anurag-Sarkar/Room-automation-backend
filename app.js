@@ -11,7 +11,7 @@ const db = require("./config/mongodb")
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-const allowedOrigins = ['http://localhost:5173', 'https://room-automation-frontend.vercel.app/'];
+const allowedOrigins = ['http://localhost:5173', 'https://room-automation-frontend.vercel.app'];
 
 const corsOptions = {
   origin: function (origin, callback) {
